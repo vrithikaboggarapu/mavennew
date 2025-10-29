@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven-Homebrew'  // 👈 Must match the name you configured 
-in Jenkins > Tools
+        maven 'Maven-Homebrew'  // Must match the name in Jenkins > Manage 
+Jenkins > Tools
     }
 
     stages {
@@ -31,6 +31,4 @@ in Jenkins > Tools
         }
     }
 }
-
-
 
